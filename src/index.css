@@ -16,12 +16,18 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
 .flex-center {
-  @apply flex items-center justify-center;
+  @apply flex justify-center items-center;
 }
 .flex-between {
-  @apply flex items-center justify-between;
+  @apply flex justify-between items-center;
 }
 .flex-start {
-  @apply flex items-center justify-start;
+  @apply flex justify-start items-center;
 }
