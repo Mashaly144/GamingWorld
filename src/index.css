@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+h1,
+h1,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 800;
+}
 :root {
   font-family: 'Poppins', sans-serif;
   line-height: 1.5;
@@ -33,25 +42,12 @@ a {
   @apply flex justify-start items-center;
 }
 .mainHeader {
-  width: 578.086px;
   color: #fff;
-  font-family: Ondo;
+  font-family: 'Poppins', sans-serif;
   font-size: 68.937px;
   font-style: normal;
   font-weight: 800;
   line-height: 110.6%; /* 76.245px */
-  letter-spacing: 2.757px;
-  text-transform: uppercase;
-  background: url(<path-to-image>),
-    lightgray 163.807px -78.217px / 71.664% 168.611% no-repeat;
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-family: Ondo;
-  font-size: 68.937px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: 110.6%;
   letter-spacing: 2.757px;
   text-transform: uppercase;
 }
@@ -66,7 +62,7 @@ a {
   letter-spacing: 0.749px;
 }
 .imgHeader {
-  max-width: 100%;
+  width: 100%;
   mix-blend-mode: color-dodge;
 }
 
