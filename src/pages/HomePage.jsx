@@ -1,10 +1,11 @@
-import React from "react";
-import Hero from "../Componant/Hero";
+import React from 'react';
+import Hero from '../components/Hero';
+import Articles from '../components/Articles';
 const HomePage = () => {
   return (
     <div>
-      HomePage
       <Hero />
+      <Articles />
     </div>
   );
 };

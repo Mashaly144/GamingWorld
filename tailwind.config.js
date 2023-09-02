@@ -15,6 +15,7 @@ module.exports = {
       colors: {
         violet: '#2D1E6B',
         white: '#ffffff',
+        main: 'linear-gradient(to right, #f400cc, #6244f4)',
       },
       boxShadow: {
         primary: '0px 20px 200px rgba(57, 23, 119, 0.05)',
