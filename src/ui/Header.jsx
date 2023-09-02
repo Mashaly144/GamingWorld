@@ -1,5 +1,6 @@
 import React from 'react';
-import Nav from '../Componant/Nav';
+// import Nav from '../Componant/Nav';
+import Nav from '../components/Nav';
 import { BsHandbag } from 'react-icons/bs';
 
 const Header = () => {
