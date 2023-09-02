@@ -2,6 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+h1,
+h1,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+}
 :root {
   font-family: "Poppins", sans-serif;
   line-height: 1.5;
@@ -33,9 +42,8 @@ a {
   @apply flex justify-start items-center;
 }
 .mainHeader {
-  width: 578.086px;
   color: #fff;
-  font-family: Ondo;
+  font-family: "Poppins", sans-serif;
   font-size: 68.937px;
   font-style: normal;
   font-weight: 800;
@@ -65,7 +73,7 @@ a {
   letter-spacing: 0.749px;
 }
 .imgHeader {
-  max-width: 100%;
+  width: 100%;
   mix-blend-mode: color-dodge;
 }
 
