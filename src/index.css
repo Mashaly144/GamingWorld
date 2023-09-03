@@ -26,6 +26,16 @@ h6 {
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
+.overlay-circle {
+  position: absolute;
+
+  width: 341px;
+  height: 341px;
+  flex-shrink: 0;
+  border-radius: 341px;
+  background: #dd00b8;
+  filter: blur(292px);
+}
 ul {
   list-style: none;
 }
@@ -103,4 +113,12 @@ a {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
   background: -webkit-linear-gradient(to right, #6244f4, #f400cc);
   background: linear-gradient(to right, #6244f4, #f400cc);
+}
+
+.footer-Background {
+  background: url(./assets//footerBackground.png),
+    lightgray -0.573px -40.736px / 100.066% 108.213% no-repeat;
+  background-size: cover;
+  background-position: right;
+  mix-blend-mode: color-dodge;
 }

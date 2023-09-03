@@ -38,6 +38,8 @@ function Hero() {
             <img src={heroImg} alt='HeroBackGround' className='imgHeader' />
           </div>
         </div>
+        <div className='overlay-circle left-0 top-0' />
+        <div className='overlay-circle right-0 top-52' />
       </div>
     </div>
   );
