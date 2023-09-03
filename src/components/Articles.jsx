@@ -3,7 +3,7 @@ import { games } from '../constant/data';
 import Card from './Card';
 const Articles = () => {
   return (
-    <div>
+    <div className='relative'>
       <div className='container mx-auto'>
         <div>
           <h1 className='text-5xl text-center py-7 font-semibold capitalize'>
@@ -15,6 +15,8 @@ const Articles = () => {
             })}
           </div>
         </div>
+        <div className='overlay-circle left-0 top-0' />
+        <div className='overlay-circle right-0 bottom-0' />
       </div>
     </div>
   );

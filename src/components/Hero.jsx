@@ -15,8 +15,8 @@ function Hero() {
               term that suggests regular gameplay, possibly as a hobby.
             </p>
             <div className='flex-between gap-4'>
-              <Button>Buy now</Button>
-              <Button styles={`bg-transparent`}>Play now</Button>
+              <Button styles={`main-button-active`}>Buy now</Button>
+              <Button styles={`main-button`}>Play now</Button>
             </div>
             <div className='flex gap-4 py-4 '>
               <div className=' flex  flex-col items-center'>
