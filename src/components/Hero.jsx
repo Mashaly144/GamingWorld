@@ -7,7 +7,13 @@ function Hero() {
       <div className='container mx-auto'>
         <div className='flex-between '>
           <div className=' flex-1 space-y-10'>
-            <h1 className='mainHeader'>Let your mind explore new world</h1>
+            <h1 className='mainHeader'>
+              Let your mind{' '}
+              <span className='bg-gradient-background text-transparent bg-clip-text'>
+                explore
+              </span>{' '}
+              new world
+            </h1>
 
             <p>
               Playing electronic games, whether through consoles, computers,

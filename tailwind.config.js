@@ -15,12 +15,14 @@ module.exports = {
       colors: {
         violet: '#2D1E6B',
         white: '#ffffff',
-        main: 'linear-gradient(to right, #f400cc, #6244f4)',
+        'gradient-background': 'linear-gradient(to right, #f400cc, #6244f4)',
       },
       boxShadow: {
         primary: '0px 20px 200px rgba(57, 23, 119, 0.05)',
       },
-      backgroundImage: {},
+      backgroundImage: {
+        'gradient-background': 'linear-gradient(to right, #f400cc, #6244f4)',
+      },
     },
     screens: {
       sm: '640px',

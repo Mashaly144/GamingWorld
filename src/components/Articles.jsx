@@ -3,7 +3,7 @@ import { games } from '../constant/data';
 import Card from './Card';
 const Articles = () => {
   return (
-    <div className='relative'>
+    <div className='relative py-[100px]'>
       <div className='container mx-auto'>
         <div>
           <h1 className='text-5xl text-center py-7 font-semibold capitalize'>
