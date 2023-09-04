@@ -3,7 +3,7 @@ import React from 'react';
 import Swiper from 'react-id-swiper';
 import TestimonialsCard from './TestimonialsCard';
 
-export const Testimonials = () => {
+const Testimonials = () => {
   const params = {
     pagination: {
       el: '.swiper-pagination',
@@ -26,3 +26,5 @@ export const Testimonials = () => {
     </div>
   );
 };
+
+export default Testimonials;
