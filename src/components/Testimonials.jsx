@@ -1,13 +1,12 @@
-import { testimonialsCard } from "../constant/data";
-import React from "react";
-import Swiper from "react-id-swiper";
-import "swiper/css/swiper.css";
-import TestimonialsCard from "./TestimonialsCard";
+import { testimonialsCard } from '../constant/data';
+import React from 'react';
+import Swiper from 'react-id-swiper';
+import TestimonialsCard from './TestimonialsCard';
 
 export const Testimonials = () => {
   const params = {
     pagination: {
-      el: ".swiper-pagination",
+      el: '.swiper-pagination',
       clickable: true,
       dynamicBullets: true,
     },
