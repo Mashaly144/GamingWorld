@@ -5,7 +5,7 @@ function Hero() {
   return (
     <div className=' relative'>
       <div className='container mx-auto'>
-        <div className='flex-between flex-col lg:flex-row '>
+        <div className='flex-between items-center flex-col lg:flex-row '>
           <div className=' flex-1 space-y-10'>
             <h1 className='mainHeader'>
               Let your mind{' '}
@@ -24,6 +24,7 @@ function Hero() {
               <Button styles={`main-button-active`}>Buy now</Button>
               <Button styles={`main-button`}>Play now</Button>
             </div>
+            {/* buttons */}
             <div className='flex justify-center lg:justify-start gap-4 py-4 '>
               <div className=' flex  flex-col items-center'>
                 <h3 className='font-extrabold text-2xl  '>300+</h3>
@@ -38,10 +39,13 @@ function Hero() {
                 <p>Happy customer</p>
               </div>
             </div>
-            {/* buttons */}
           </div>
           <div className='flex-1'>
-            <img src={heroImg} alt='HeroBackGround' className='imgHeader' />
+            <img
+              src={heroImg}
+              alt='HeroBackGround'
+              className='max-w-full mix-blend-color-dodge'
+            />
           </div>
         </div>
         <div className='overlay-circle left-0 top-0' />
