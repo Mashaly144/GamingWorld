@@ -1,6 +1,14 @@
-import React from 'react';
-import Swiper from 'react-id-swiper';
-import 'swiper/dist/css/swiper.css';
+import React, { useRef, useState } from 'react';
+// Import Swiper React components
+import { Swiper, SwiperSlide } from 'swiper/swiper-react';
+
+// Import Swiper styles
+import 'swiper.css';
+import 'swiper/css/effect-coverflow';
+import 'swiper/css/pagination';
+
+// import required modules
+import { EffectCoverflow, Pagination } from 'swiper/modules';
 
 import game1 from '../assets/game1.png';
 import game2 from '../assets/game2.png';
@@ -14,17 +22,16 @@ const Favorites = () => {
     effect: 'coverflow',
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: '2',
+    slidesPerView: 'auto',
     coverflowEffect: {
       rotate: 50,
       stretch: 0,
-      depth: 50,
+      depth: 100,
       modifier: 1,
       slideShadows: true,
     },
-    pagination: {
-      el: '.swiper-pagination',
-    },
+    pagination: true,
+    modules: [EffectCoverflow, Pagination],
   };
 
   return (
@@ -44,13 +51,25 @@ const Favorites = () => {
               trailers, screenshots, and information about release.
             </p>
           </div>
-          <Swiper {...params}>
-            <img src={game1} alt='game' />
-            <img src={game2} alt='game' />
-            <img src={game3} alt='game' />
-            <img src={game4} alt='game' />
-            <img src={game5} alt='game' />
-            <img src={game6} alt='game' />
+          <Swiper className='mySwiper' {...params}>
+            <SwiperSlide>
+              <img src={game1} alt='game' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={game2} alt='game' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={game3} alt='game' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={game4} alt='game' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={game5} alt='game' />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={game6} alt='game' />
+            </SwiperSlide>
           </Swiper>
           <div className='flex-between mx-auto pt-[80px] w-[50%] gap-4'>
             <Button styles={`main-button-active`}>Buy now</Button>
