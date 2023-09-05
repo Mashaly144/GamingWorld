@@ -89,7 +89,7 @@ const Favorites = () => {
               <img src={game6} alt='game' />
             </SwiperSlide>
           </Swiper>
-          <div className='flex-between mx-auto pt-[80px] w-[50%] gap-4'>
+          <div className='flex justify-center items-center  flex-wrap  capitalize mx-auto py-[80px] w-[80%] gap-4'>
             <Button styles={`main-button-active`}>Buy now</Button>
             <Button styles={`main-button`}>Play now</Button>
           </div>

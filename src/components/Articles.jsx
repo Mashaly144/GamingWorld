@@ -10,7 +10,7 @@ const Articles = () => {
           <h1 className='text-5xl text-center font-semibold capitalize'>
             Welcome to the top games
           </h1>
-          <div className='flex-between flex-wrap  capitalize mx-auto py-[80px] w-[80%] gap-4'>
+          <div className='flex justify-center items-center  flex-wrap  capitalize mx-auto py-[80px] w-[80%] gap-4'>
             <Button styles={`main-button-active `}>Mewest games</Button>
             <Button styles={`main-button-active`}>Latest games</Button>
             <Button styles={`main-button-active`}>Fight games</Button>
