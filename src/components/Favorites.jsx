@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react';
+import React from 'react';
 // Import Swiper React components
 import { Swiper, SwiperSlide } from 'swiper/react';
 
@@ -52,7 +52,7 @@ const Favorites = () => {
             </p>
           </div>
           <Swiper className='mySwiper' {...params}>
-            <SwiperSlide className='flex justify-center items-center'>
+            <SwiperSlide>
               <img src={game1} alt='game' />
             </SwiperSlide>
             <SwiperSlide>
