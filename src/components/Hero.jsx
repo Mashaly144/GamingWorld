@@ -3,9 +3,9 @@ import Button from '../ui/Button';
 
 function Hero() {
   return (
-    <div className='h-[85vh]'>
+    <div className=' relative'>
       <div className='container mx-auto'>
-        <div className='flex-between '>
+        <div className='flex-between flex-col lg:flex-row '>
           <div className=' flex-1 space-y-10'>
             <h1 className='mainHeader'>
               Let your mind{' '}
@@ -20,11 +20,11 @@ function Hero() {
               mobile phones or another medium altogether. Gaming is a nuanced
               term that suggests regular gameplay, possibly as a hobby.
             </p>
-            <div className='flex-between gap-4'>
+            <div className='flex-start gap-4'>
               <Button styles={`main-button-active`}>Buy now</Button>
               <Button styles={`main-button`}>Play now</Button>
             </div>
-            <div className='flex gap-4 py-4 '>
+            <div className='flex justify-center lg:justify-start gap-4 py-4 '>
               <div className=' flex  flex-col items-center'>
                 <h3 className='font-extrabold text-2xl  '>300+</h3>
                 <p>Unique style</p>
@@ -40,7 +40,7 @@ function Hero() {
             </div>
             {/* buttons */}
           </div>
-          <div className=' flex-1'>
+          <div className='flex-1'>
             <img src={heroImg} alt='HeroBackGround' className='imgHeader' />
           </div>
         </div>

@@ -8,11 +8,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 800;
 }
 :root {
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   line-height: 1.5;
   font-weight: 400;
 
@@ -54,7 +54,7 @@ a {
 }
 .mainHeader {
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size: 68.937px;
   font-style: normal;
   font-weight: 800;
@@ -79,7 +79,6 @@ a {
   letter-spacing: 0.749px;
 }
 .imgHeader {
-  width: 100%;
   mix-blend-mode: color-dodge;
 }
 

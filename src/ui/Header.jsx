@@ -12,7 +12,7 @@ const Header = () => {
           <h1 className='text-2xl font-semibold'>board</h1>
         </div>
         <Nav />
-        <BsHandbag />
+        <BsHandbag className='text-3xl' />
       </div>
     </div>
   );

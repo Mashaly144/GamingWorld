@@ -32,14 +32,14 @@ const Favorites = () => {
       <div className='container mx-auto'>
         <div>
           <div className='flex flex-col justify-center items-center gap-6 pb-[80px]'>
-            <h1 className='mainHeader text-center'>
-              choose your
-              <span className='bg-gradient-background text-transparent bg-clip-text'>
-                favorite
+            <h1 className='lg:w-[80%] uppercase leading-tight text-6xl text-center'>
+              choose your{' '}
+              <span className='uppercase bg-gradient-background text-transparent bg-clip-text'>
+                favorite{' '}
               </span>
               games
             </h1>
-            <p>
+            <p className='text-center'>
               Offer sneak peeks and previews of upcoming games, including
               trailers, screenshots, and information about release.
             </p>

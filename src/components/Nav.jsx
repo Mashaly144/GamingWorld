@@ -1,10 +1,10 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Nav = () => {
   return (
-    <nav>
-      <ul className="flex-between space-x-10 ">
+    <nav className='hidden lg:flex'>
+      <ul className='flex-between space-x-10 '>
         <Link>
           <li>Products</li>
         </Link>

@@ -15,7 +15,7 @@ const Card = ({ user }) => {
           </div>
         </div>
       </div>
-      <Button styles={`main-button-active`}>Live Demo</Button>
+      <Button styles={`main-button-active  w-full`}>Live Demo</Button>
     </div>
   );
 };
