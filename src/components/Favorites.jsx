@@ -1,9 +1,9 @@
 import React, { useRef, useState } from 'react';
 // Import Swiper React components
-import { Swiper, SwiperSlide } from 'swiper/swiper-react';
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-import 'swiper.css';
+import 'swiper/swiper-bundle.css';
 import 'swiper/css/effect-coverflow';
 import 'swiper/css/pagination';
 
@@ -22,7 +22,7 @@ const Favorites = () => {
     effect: 'coverflow',
     grabCursor: true,
     centeredSlides: true,
-    slidesPerView: 'auto',
+    slidesPerView: '3',
     coverflowEffect: {
       rotate: 50,
       stretch: 0,
@@ -52,7 +52,7 @@ const Favorites = () => {
             </p>
           </div>
           <Swiper className='mySwiper' {...params}>
-            <SwiperSlide>
+            <SwiperSlide className='flex justify-center items-center'>
               <img src={game1} alt='game' />
             </SwiperSlide>
             <SwiperSlide>
