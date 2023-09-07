@@ -36,7 +36,7 @@ const Testimonials = () => {
   return (
     <div className='relative py-[100px]'>
       <div className='container mx-auto '>
-        <div>
+        <div data-aos='fade-left'>
           <h1 className='lg:w-[80%] uppercase text-6xl text-center mx-auto mb-10'>
             welcome to{' '}
             <span className='text-center uppercase bg-gradient-background text-transparent bg-clip-text'>

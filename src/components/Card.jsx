@@ -3,7 +3,7 @@ import Button from '../ui/Button';
 
 const Card = ({ user }) => {
   return (
-    <div className='card'>
+    <div className='card' data-aos='fade-left'>
       <img className='w-full' src={user.image} alt='game' />
       <div className='py-5'>
         <p className='text-2xl capitalize '>{user.type}</p>

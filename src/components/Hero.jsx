@@ -6,7 +6,7 @@ function Hero() {
     <div className=' relative'>
       <div className='container mx-auto'>
         <div className='flex-between items-center flex-col lg:flex-row '>
-          <div className=' flex-1 space-y-10'>
+          <div className=' flex-1 space-y-10' data-aos='fade-right'>
             <h1 className='mainHeader'>
               Let your mind{' '}
               <span className='bg-gradient-background text-transparent bg-clip-text'>
@@ -45,6 +45,7 @@ function Hero() {
               src={heroImg}
               alt='HeroBackGround'
               className='max-w-full mix-blend-color-dodge'
+              data-aos='fade-left'
             />
           </div>
         </div>

@@ -56,7 +56,10 @@ const Favorites = () => {
     <div className='py-[50px] relative'>
       <div className='container mx-auto'>
         <div>
-          <div className='flex flex-col justify-center items-center gap-6 pb-[80px]'>
+          <div
+            className='flex flex-col justify-center items-center gap-6 pb-[80px]'
+            data-aos='fade-up'
+          >
             <h1 className='lg:w-[80%] uppercase leading-tight text-6xl text-center'>
               choose your{' '}
               <span className='uppercase bg-gradient-background text-transparent bg-clip-text'>
@@ -69,27 +72,30 @@ const Favorites = () => {
               trailers, screenshots, and information about release.
             </p>
           </div>
-          <Swiper className='mySwiper' {...params}>
+          <Swiper className='mySwiper' {...params} data-aos='fade-up'>
             <SwiperSlide>
-              <img src={game1} alt='game' />
+              <img src={game1} alt='game' data-aos='fade-left' />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={game2} alt='game' />
+              <img src={game2} alt='game' data-aos='fade-left' />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={game3} alt='game' />
+              <img src={game3} alt='game' data-aos='fade-left' />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={game4} alt='game' />
+              <img src={game4} alt='game' data-aos='fade-left' />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={game5} alt='game' />
+              <img src={game5} alt='game' data-aos='fade-left' />
             </SwiperSlide>
             <SwiperSlide>
-              <img src={game6} alt='game' />
+              <img src={game6} alt='game' data-aos='fade-left' />
             </SwiperSlide>
           </Swiper>
-          <div className='flex justify-center items-center  flex-wrap  capitalize mx-auto py-[80px] w-[80%] gap-4'>
+          <div
+            className='flex justify-center items-center  flex-wrap  capitalize mx-auto py-[80px] w-[80%] gap-4'
+            data-aos='fade-up'
+          >
             <Button styles={`main-button-active`}>Buy now</Button>
             <Button styles={`main-button`}>Play now</Button>
           </div>

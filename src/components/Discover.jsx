@@ -7,9 +7,14 @@ const Discover = () => {
       <div className='container mx-auto'>
         <div className='card flex-between flex-col lg:flex-row space-y-[50px] lg:space-y-0'>
           <div className='flex-1'>
-            <img className='max-w-full' src={discover} alt='discover' />
+            <img
+              className='max-w-full'
+              src={discover}
+              alt='discover'
+              data-aos='fade-right'
+            />
           </div>
-          <div className='flex flex-1 flex-col gap-10 '>
+          <div className='flex flex-1 flex-col gap-10 ' data-aos='fade-left'>
             <h1 className='text-6xl'>
               Discover the
               <span className='bg-gradient-background text-transparent bg-clip-text'>
